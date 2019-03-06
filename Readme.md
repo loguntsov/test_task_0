@@ -11,10 +11,10 @@ To start you should run:
 After that you can use function provided by modules: f, g, h, k.
 
 ```
-f:calc(x, tan).
+f:calc(1, tan).
 f:rand([h, k]).
-f:calc(x, sin).
-f:calc(x, fun(X) -> X+ 1 end). % as example of universal function
+f:calc(2, sin).
+f:calc(3, fun(X) -> X+ 1 end). % as example of universal function
 ```
 
 rebar3 should be installed in system.
